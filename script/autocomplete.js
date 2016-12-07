@@ -246,6 +246,7 @@ app.directive('autocomplete', function() {
         <div class="autocomplete {{ attrs.class }}" id="{{ attrs.id }}">\
           <input\
             type="search"\
+            autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" \
             ng-model="searchParam"\
             placeholder="{{ attrs.placeholder }}"\
             class="{{ attrs.inputclass }}"\
